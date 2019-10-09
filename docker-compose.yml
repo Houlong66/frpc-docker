@@ -1,0 +1,6 @@
+version: "3"
+services:
+  frpc:
+    image: your_image_name
+    volumes:
+      - "./frpc.ini:/etc/frpc.ini"
